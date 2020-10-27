@@ -1,11 +1,11 @@
-console.log(a);
-console.log(b);
-console.log(c);
+function imprimir (){
+    for (var i = 0; i < 8000; i++) {
+        console.log('imprimio');        
+    }
+}
 
-var a = 1;
-var b = true;
-var c = "Yamid";
+function presionoClick(){
+    console.log('click en el boton');
+}
 
-console.log(a);
-console.log(b);
-console.log(c);
+imprimir();
