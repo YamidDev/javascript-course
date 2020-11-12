@@ -67,3 +67,18 @@ printFunction(function(){
     console.log("Print anonymous function");
 });
 printFunction(myFunction);
+
+function a(){
+    console.log("function a");
+}
+
+a();
+a.nombre = "Maria";
+a.address = {
+    country: "Colombia",
+    city: "Soledad",
+    building: {
+        floor: 8,
+        name: "Las Cayenas"
+    }
+}
