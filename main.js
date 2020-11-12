@@ -1,11 +1,26 @@
-function imprimir (){
-    for (var i = 0; i < 8000; i++) {
-        console.log('imprimio');        
-    }
+function firstFunction() {
+    var a = 20;
+    console.log(a);
 }
 
-function presionoClick(){
-    console.log('click en el boton');
+firstFunction();
+
+function printPerson(person) {
+   
+    console.log(`${person.name} ${person.lastName}`);
 }
 
-imprimir();
+var person = {
+    name: "Yamid",
+    lastName: "Cueto"
+}
+
+printPerson(person);
+
+function printFunction(fn) {
+    fn();
+}
+
+printFunction(function(){
+    console.log("Print anonymous function");
+});
