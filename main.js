@@ -82,3 +82,13 @@ a.address = {
         name: "Las Cayenas"
     }
 }
+
+var person3 = {
+    name : "Juan",
+    lastName : "Herrera",
+    printName : ()=>{
+        console.log(`${this.name} ${this.lastName}`);
+    }
+}
+
+person3.printName();    
